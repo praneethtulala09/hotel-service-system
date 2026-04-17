@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     tools {
-        maven 'Maven3' // Must match the name in Manage Jenkins -> Tools
-        jdk 'JDK11'    // Must match the name in Manage Jenkins -> Tools
-    }
+    maven 'M3' 
+    jdk 'JDK11'
+}
     
     environment {
         DOCKER_IMAGE = 'your-dockerhub-username/hotel-booking' // Change this
